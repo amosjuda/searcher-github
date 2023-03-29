@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Searcher - github</title>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <img src="./assets/logo-github.png" alt="git-hub-icon">
+        </div>
+    </header>
+    <main>
+        <div id="informative">
+            <p>🔎   Type an username below to search</p>
+        </div>
+        <div id="bar-search">
+            <span class="input-search-reset">
+                <span class="input">
+                    <input type="search" alt="Type here" placeholder="Type here...">
+                </span>
+            
+                <span class="search">
+                    <button>Search</button>
+                </span>
+
+                <button type="button" onclick="reloadPage()"><img src="./assets/reset-icon.png"></button>
+            </span>
+        </div>
+        <div id="card-infoAndRepositories">
+            <span class="card-info">
+                <img src="./assets/logobigger-github.png" alt="git-hub-icon">
+                <div class="personalData">
+                    <p class="fullName">Full name</p>
+                    <p class="location">Localization</p>
+                    <p class="bio">Bio</p>
+                </div>
+                <a href="#">@username</a> 
+            </span>
+            <div class="card-repositories">
+                <div id="information">
+                    <p id="lookRepositories">Take a quick look at all repositories from</p>
+                    <p id="username">{username}</p>
+                <div>
+                </div id="tableAllRepositories">
+                         
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="credits">
+            <p>Developed with 🧡 by &nbsp <p style="color:#FF7C17">Amós</p></p>
+            <!--&nbsp it's to give ONE more space in the name amos-->
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

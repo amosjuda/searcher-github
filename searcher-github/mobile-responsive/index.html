@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Searcher-Mobile - github</title>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <img src="./assets/logo-mini-mobile-github.png" alt="git-hub-icon">
+        </div>
+    </header>
+    <main>
+        <div id="informative">
+            <p>Type an username below to search 🔎</p>
+        </div>
+        <div id="bar-search">
+            <span class="input-search-reset">
+                <div class="input">
+                    <input type="search" alt="Type here" placeholder="Type here to search...">
+                </div>
+                <div class="search-reset">
+                    <span class="search">
+                        <button>Search</button>
+                    </span>
+                    <span class="reset">
+                        <button type="button" onclick="reloadPage()"><img src="./assets/replay.png"></button>
+                    </span>
+                </div>
+            </span>
+        </div>
+        <div id="card-infoAndRepositories">
+            <div class="card-info">
+                <img src="./assets/logo-bigger-mobile-github.png" alt="git-hub-icon">
+                <div class="personalData">
+                    <p class="fullName">Full name</p>
+                    <p class="nickname">@nickname</p>
+                    <p class="bio">Bio</p>
+                </div>
+                <div class="follow">
+                    <span id="followers">
+                        <p id="numberFollowers" style="color:#FF7C17">0 &nbsp</p>
+                        <p>followers</p>
+                    </span>
+                    <span id="following">
+                        <p id="numberFollowing" style="color:#FF7C17">0 &nbsp</p>
+                        <p>following</p>
+                    </span>
+                </div>
+            </div>
+            <div class="card-repositories">
+                <div id="information">
+                    <p id="lookRepositories">Take a quick look at all repositories from &nbsp<span id="username" style="color:#FF7C17">{username}</span></p>
+                <div>
+                </div id="tableAllRepositories">
+                         
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

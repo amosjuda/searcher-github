@@ -1,0 +1,200 @@
+body {
+    background: #22272E;
+    margin: 0px;
+}
+/*Header*/
+header #navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2C333B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 100px;
+    left: 0px;
+    top: 2px;
+}
+header #navbar img{
+    position: absolute;
+    margin: 11px 0px 11.54px 0px;
+}
+
+/*Main*/
+main #informative{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main #informative p {
+    font-family: normal;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    
+    margin-top: 45px;
+    margin-bottom: 35px;
+    color: #D9D9D9;
+}
+main #bar-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main #bar-search .input-search-reset .input input{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    width: 300px;
+    height: 50px;
+    left: calc(50% - 300px/2 - 20px);
+    top: calc(50% - 50px/2 - 301.5px);
+    box-sizing: border-box;
+    background: #2C333B;
+    border: 1px solid #FF7C17;
+    border-radius: 15px;
+    margin-right: 19px;
+    padding: 1px 20px 1px 23px;
+}
+main #bar-search .input-search-reset .search button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    width: 117px;
+    height: 50px;
+    left: calc(50% - 117px/2 + 207.5px);
+    top: calc(50% - 50px/2 - 302.5px);
+    color: #D9D9D9;
+    background: #FF7C17;
+    border-radius: 15px;
+    margin-right: 24px;
+}
+main #bar-search .input-search-reset button {
+    left: 66.96%;
+    right: 32%;
+    top: 22.02%;
+    bottom: 76.1%; 
+    color: #D9D9D9;
+    background: #22272E;
+    border: 0;
+    width: 18px;
+    height: 21px;
+    padding-top: 6px;
+}
+/*Main-infoCard*/
+main #card-infoAndRepositories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 69px;
+    margin-bottom: 132px;
+}
+main #card-infoAndRepositories .card-info {
+    width: 300px;
+    height: 500px;
+    left: calc(50% - 300px/2 - 500px);
+    top: calc(50% - 500px/2 + 42.5px);
+    background: #2C333B;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.25);
+    border-radius: 25px;
+    margin-right: 50px;
+}
+main #card-infoAndRepositories .card-info img{
+    width: 150px;
+    height: 145.25px;
+    left: 289px;
+    top: 394px;
+    margin: 43px 75px 61px;
+}
+main #card-infoAndRepositories .card-info .personalData {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #D9D9D9;
+    
+}
+main #card-infoAndRepositories .card-info .personalData p{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin: 0px 75px 0px;
+}
+main #card-infoAndRepositories .card-info a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    color: #FF7C17;
+    margin: 31px 75px 19px 75px;
+}
+/*Main-repositoriesCard*/
+main #card-infoAndRepositories .card-repositories {
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    height: 500px;
+    left: calc(50% - 950px/2 + 175px);
+    bottom: 266px;
+    background: #2C333B;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.25);
+    border-radius: 25px;
+}
+main #card-infoAndRepositories .card-repositories #information #lookRepositories{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #D9D9D9;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+main #card-infoAndRepositories .card-repositories #information #username {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF7C17;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+/*footer*/
+footer #credits {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 84px;
+    margin-right: auto;
+    margin-left: auto;
+}
